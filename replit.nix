@@ -1,6 +1,7 @@
 { pkgs }: {
 	deps = [
-		pkgs.rustc
+		pkgs.vim
+  pkgs.rustc
 		pkgs.rustfmt
 		pkgs.cargo
 		pkgs.cargo-edit

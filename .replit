@@ -1,7 +1,7 @@
-run = ["cargo", "run"]
+run = "cargo test -- --test-threads=1"
 hidden = ["target"]
 
-entrypoint = "src/main.rs"
+entrypoint = "src/lib.rs"
 
 [packager]
 language = "rust"
